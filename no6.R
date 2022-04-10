@@ -9,8 +9,8 @@ rata.rata <- mean(random)
 x1 <- floor(rata.rata)
 x2 <- ceiling(rata.rata)
 
-z1 <- (x1 - m) / std.deviasi
-z2 <- (x2 - m) / std.deviasi
+z1 <- (x1 - m) / std.dev
+z2 <- (x2 - m) / std.dev
 #   zscores <- c(z1,z2)
 #   plot(zscores, type = "o")
 rnorm(n = 100, mean = m, sd = std.dev)
